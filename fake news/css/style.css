@@ -1,0 +1,124 @@
+body{
+    background-image: url('../imagens/background.png');
+    background-attachment: fixed;
+}
+/*NAV BAR*/
+.navbar{
+    background-color: #94B3D8E5;
+    align-items: flex-end;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.li{
+    display: flex;
+    float:left;
+}
+/*BOTÃO PÁGINA ATIVA*/
+#ativo{
+    border: rgb(199, 245, 130) solid;
+    border-width: 1px;
+}
+#ativo>a{
+    color: rgb(162, 247, 218);
+}
+/*BOTÕES NAV BAR*/
+.menu{   
+    background-color: #7F9CBE;
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+.button{
+    background-color: #004E97;
+    border: none;
+    border-radius: 7px;
+    margin-left: 25px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.active > a{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+.lupa{
+    background-color: transparent;
+    border: none;
+}
+.search{
+    border-radius: 7px;
+    background-color: #D9FDFF;
+    padding: 10px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-left: 40px;
+}
+/*CAROUSEL*/
+.img-responsive{
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    max-height: 500px;
+}
+.carousel{
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*BOTÕES REDES SOCIAS*/
+.ul1{
+    list-style-type: none;
+    position: fixed;
+    z-index: auto;
+    top: 80%;
+    
+}
+.li1{
+    padding: 5px;
+    margin:0;
+
+}
+.li1>div>a>img{
+ width: 100%;
+height: 5%;
+}
+.li1>div{
+    width:5%;
+    
+}
+/*TEXTO*/
+.texto{
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    text-align: justify;
+    background-color: #e5e5e5;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+/*RODAPÉ*/
+footer{
+    background-color: rgba(192, 192, 192);
+    text-align: center;
+    padding: 20px;
+}
+.manutencao{
+    margin: auto;
+    display: block;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 700px;
+}
